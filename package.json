@@ -1,0 +1,24 @@
+{
+  "name": "@midspace/download-content-files",
+  "version": "1.0.0",
+  "description": "A tool to download each file from your Clowdr (Midspace) content export.",
+  "main": "./src/download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clowdr-app/downlolad-content-files.git"
+  },
+  "author": "Clowdr CIC",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/clowdr-app/downlolad-content-files/issues"
+  },
+  "homepage": "https://github.com/clowdr-app/downlolad-content-files#readme",
+  "dependencies": {
+    "amazon-s3-uri": "^0.1.1",
+    "commander": "^9.0.0",
+    "papaparse": "^5.3.1"
+  }
+}
